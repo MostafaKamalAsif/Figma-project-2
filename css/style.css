@@ -1,0 +1,546 @@
+/* All common css  start*/
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    font-family: "Poppins", sans-serif;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul,ol, li{
+    list-style-type: none;
+}
+h1, h2,h3,h4,h5,h6,p{
+  margin: 0;
+  padding: 0;
+    line-height: 0.8;
+}
+.continer{
+    width: 1320px;
+    margin: 0 auto;
+}
+
+/* All common css  end*/
+/* Header part start  */
+#headerpart{
+    padding: 40px 0;
+    background: #F9F9FC;
+}
+
+.headerflex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logoflex{
+    display: flex;
+    align-items: center;
+}
+.logoflex p{
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 5px;
+    background: #5E3BEE;
+    border-radius: 50%;
+    margin-right: 3px;
+}
+.logoflex h3{
+    font-size: 16px;
+    font-weight: 600;
+    color: #5E3BEE;
+}
+.menu ul{
+    display: flex;
+}
+.menu ul li a{
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+    padding: 0 22.5px;
+    line-height: 22px;
+}
+.btn{
+    padding: 15px 25px;
+    border-radius: 30px;
+    background: #5E3BEE;
+}
+.btn a{
+    font-size: 14px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.btn i{
+   padding-left: 10px;
+   color: #FFFFFF;
+}
+/* Header part end  */
+
+/* Banner part start  */
+#bannerpart{
+    padding: 10px 0 45px 0;
+    background: #F9F9FC;
+}
+.bannerflex{
+    display: flex;
+    justify-content: space-between;
+}
+.bannertext p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #5E3BEE;
+}
+.bannertext h1{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 78px;
+    width: 479px;
+    color: #000000;
+    padding: 50px 0 60px 0;
+}
+.btn2 {
+    
+    padding: 25px 40px;
+    border-radius: 35px;
+    background: #5E3BEE;
+    font-size: 14px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.btn2 i{
+    padding-right: 10px;
+    color: #FFFFFF;
+}
+.dwn {
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #000000;
+    width: 142;
+    text-align: center;
+
+}
+
+/* Banner part end  */
+
+/* Achivment part start  */
+#achivepart{
+    padding: 100px 0;
+    background: #FFFFFF;
+}
+.achiveflex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.achiveinfo h3{
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 56px;
+  padding-bottom: 20px;
+  color: #000000;
+  text-align: center;
+}
+.achiveinfo p{
+   font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #000000;
+  opacity: .7;
+  text-align: center;
+}
+/* Achivment part end  */
+
+
+/*service part start  */
+.servicetext{
+    text-align: center;
+}
+.servicetext span{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #5E3BEE;
+}
+.servicetext h3{
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 56px;
+    color: #000000;
+    padding: 25px 0 35px 0;
+}
+.servicetext p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #000000;
+    opacity: .7;
+    width: 545px;
+    margin: 0 auto;
+}
+.serviceflex{
+    display: flex;
+    justify-content: space-between;
+    padding: 65px 0;
+}
+.serviceiteam{
+    padding: 50px 70px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: .4s;
+    
+}
+.serviceiteam:hover{
+    background: #F1F0FB;
+    border: 1px solid rgba(0, 0, 0, 0.0);
+}
+.serviceicon{
+padding: 0 119px;
+}
+.serviceinfo{
+    width: 288px;
+    text-align: center;
+}
+
+.serviceinfo h3{
+ font-size: 20px;
+ font-weight: 500;
+ line-height: 32px;
+ padding: 40px 0 20px;
+}
+.serviceinfo p{
+ font-size: 16px;
+ font-weight: 400;
+ line-height: 32px;
+ opacity: .7;
+}
+
+/*service part end  */
+
+/* banner part 2 start  */
+.bannerflex2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+.bannertext2 p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #5E3BEE;
+}
+.bannertext2 h2{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 78px;
+    width: 479px;
+    color: #000000;
+    padding: 45px 0 60px 0;
+}
+.banner2img{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.avter2 span img{
+    padding-left: 283px;
+}
+.banner2img span img{
+       padding: 425px 115px 0 0;
+}
+.bannertext2 .lorem{
+    width: 584px;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #333333;
+    padding-bottom: 40px;
+}
+
+
+/* banner part 2 end  */
+
+/* company part start  */
+#companypart{
+    padding: 115px 0;
+}
+.companyflex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* company part end  */
+
+/* portfolio part start  */
+
+.portfolioflex{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.workiteam p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+     color: #5E3BEE;
+}
+.workiteam h3{
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 56px;
+    padding: 30px 0 60px 0;
+}
+.worktype{
+    width: 583px;
+    height: 532px;
+    background: #C4C4C4;
+    border-radius: 20px;
+     border: 1px solid rgba(196, 196, 196, 0.1);
+    position: relative;
+}
+.workdeatils{
+    position: absolute;
+    background: #FFFFFF;
+    bottom: 0;
+border-radius: 20px;
+width: 100%;
+}
+.workdeatils h4{
+    background: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    padding: 40px 170px 20px 45px;
+}
+.workdeatils p{
+    background: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    opacity: .5;
+    padding: 0 0 50px 45px;
+    color: #000000;
+}
+.text2{
+    color: #121212;
+    opacity: .7;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+    width: 557px;
+        padding: 56px 0 52px 0;
+}
+#portfoliopart2{
+    padding-top: 43px;
+    padding-bottom: 130px;
+}
+/* portfolio part end  */
+
+/* TESTIMONY part start  */
+#testimonypart{
+   padding: 0 0 350px 0;
+}
+.testimonybackground{
+    background: url(../Image/Group\ 42.png);
+    height: 470px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 131px 184px;
+    
+}
+.testimonyflex{
+   padding-top: 55px;
+   display: flex;
+   justify-content: space-between;
+}
+.testimonyiteam{
+    padding: 45px 40px 55px 40px;
+    background: #FFFFFF;
+    width: 584px;
+   border-radius: 20px;
+    border: 1px solid rgba(51, 51, 51, 0.151);
+    
+    
+}
+.testimonyiteam i{
+    color: #EEC01C;
+    font-size: 24px;
+    
+}
+.testimonyiteam p{
+    width: 426px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    padding: 30px 0;
+}
+
+.textimonyiteamflex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.testyimonyleft{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.testimonylefttext {
+    width: 342px;
+}
+.circal{
+    width: 100px;
+    height: 100px;
+    padding: 30px 0;
+    background: #5E3BEE;
+    border-radius: 50%;
+}
+
+.testimonylefttext h4{
+    font-size: 18px;
+     line-height: 32px;
+    font-weight: 500;
+    padding-left: 15px;
+    padding-top: 5px;
+    
+}
+.testimonylefttext p{
+   font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #000000;
+    opacity: .5;
+    padding-left: 15px; 
+}
+.testimonyright  {
+ margin: 0 auto;
+}
+.testimonyright a i {
+ color: #5E3BEE;
+font-size: 45px;
+ padding: 40px 0;
+}
+/* TESTIMONY part end  */
+
+/* connect part start  */
+
+.connectbackground{
+    background-image: url(../Image/Group\ 41.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 471px;
+    border-radius: 20px;
+    margin: 130px 0;
+    padding-top: 130px;
+    
+    }
+.contecttext{
+    padding: 0px  295px;
+    text-align: center;
+}
+.contecttext h3{
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 72px;
+    width: 606px;
+    color: #000000;
+}
+/* connect part end  */
+
+
+/* footer part start  */
+#footerpart{
+    padding: 120px 0 65px 0;
+    background: #000000;
+    color: #FFFFFF;
+}
+.footerflex1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logoflex2{
+    display: flex;
+    align-items: center;
+}
+.logoflex2 p{
+    color: #000000;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 7px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.logoflex2 h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+.foterlor{
+font-size: 16px;
+    font-weight: 400;
+ line-height: 32px; 
+width: 374px;
+padding: 40px 0 80px 0;
+    
+}
+.textright li a{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+.textright li a i{
+    padding-right: 15px;
+}
+.textright  a{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 15px 0;
+    
+}
+.textright a i{
+    padding-right: 15px;
+   
+}
+.textright ul{
+    display: flex;
+
+}
+.textright u {
+    stroke: 1000px;
+}
+.footerflex2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgba(51, 51, 51, 0.9);
+    padding-top: 50px;
+}
+.menu2 ul{
+    display: flex;
+}
+.menu2 ul li a{
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFF;
+    padding: 0 22.5px;
+    line-height: 22px;
+}
+.reserved{
+    font-size: 16px;
+    font-weight: 400;
+    opacity: .6;
+    padding-right: 55px;
+}
+/* footer part end  */
